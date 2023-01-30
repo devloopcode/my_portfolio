@@ -474,6 +474,11 @@ img {
   color: var(--first-color);
 }
 
+.skills__icon__tech {
+  font-size: 1rem;
+  color: var(--first-color);
+}
+
 .skills__icon {
   margin-right: var(--mb-0-75);
 }
@@ -498,13 +503,14 @@ img {
 
 .skills__titles {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   margin-bottom: var(--mb-0-75);
 }
 
 .skills__name {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+  margin-left: var(--mb-1-5);
 }
 
 .skills__close .skills__list {
