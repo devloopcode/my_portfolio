@@ -171,7 +171,8 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 768px;
+  max-width: 985px;
+  /* max-width: 768px; */
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -192,7 +193,8 @@ img {
 
 /*==================== NAV ====================*/
 .nav {
-  max-width: 968px;
+  max-width: 1175px;
+  /* max-width: 968px; */
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -462,6 +464,7 @@ img {
 .skills__container {
   row-gap: 0;
 }
+
 
 .skills__data__backend {
   display: grid;
@@ -1049,7 +1052,7 @@ img {
   }
 
   .about__description {
-    text-align: initial;
+    text-align: justify;
   }
 
   .skills__container, .contact__container {
