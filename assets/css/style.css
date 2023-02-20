@@ -747,7 +747,7 @@ img {
 }
 
 .contact__subtitle {
-  font-size: var(--small-font-size);
+  font-size: var(--h3-font-size);
   color: var(--text-color-light);
 }
 
